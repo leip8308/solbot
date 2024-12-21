@@ -21,17 +21,13 @@ Common (PumpFun/Raydium) Features:
 
 Global Configurations (in .config):
 
-  <add key="SolNode" value="https://mainnet.helius-rpc.com/?api-key=139cbee9-0de3-4f09-ac5e-99b2055126ea" />
   // SolNode - your solana rpc node, recommend to use Helius paid node
   
-  <add key="SolStrmNode" value="wss://mainnet.helius-rpc.com/?api-key=139cdee9-0de3-4f09-ac5e-99b2055126ea" />
   // SolStrmNode - your solana rpc streaming node, recommend to use Helius paid node 
   
-  <add key="Jito" value="10" />
   // Jito - enable or disable Jito bundler
   // 10 means Jito bundler tips is 10 * 1000 lamports for each transaction
   // 0 means disable Jito bundler
 
-  <add key="JitoNode" value="TOKYO" />
   // JitoNode - location of Jito node (MAINNET/AMSTERDAM/FRANKFURT/NEWYORK/TOKYO)
 
